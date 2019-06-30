@@ -5,11 +5,11 @@ Disarium Number is a number in which the sum of the digits to the power of their
 For example, 135 = 1^1 + 3^2 + 5^3.
 
 ---
-Fortunately， there is an upper limit for possible disarium, that's:
+Fortunately， there is an upper limit for possible disarium:
 
 99 999 999 999 999 999 999 999 (biggest number with 23 digits)
 
-_9 970 805 384 609 063 732 919 (disarium form of the biggest 23 digits "9")
+09 970 805 384 609 063 732 919 (disarium form of the biggest 23 digits "9")
  
 10 000 000 000 000 000 000 000 (smallest number with 23 digits)
  
