@@ -26,11 +26,12 @@ The most fortunately thing about disarium number is, there has an upper limit fo
  
  From this simple check, we can know that all possible disarium number will smaller than 22 digits "9 999 999 999 999 999 999 999" (acturally smaller than its' disarium form "1 107 867 264 956 562 636 990").
  
- ---
+
  Above is the basic idea to find the possible disarium numbers: narrow down the possible limits for disarium numbers at any given number of digits.
  
  Let's go further, estimate the limtis from low bit digit end, in this way the possible limits will be greatlly narrow down when we get more digit known from low bit end. That's the core idea here shown in this program.
- 
+---
+
  Take an example of 3 digits number end of 5 (disarium form number is listed in braket):
  
  * xx5 <= 995  (215), pass to 2nd digit
