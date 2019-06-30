@@ -1,11 +1,11 @@
 # Disarium-Numbers
-C program searching all Disarium Numbers
+C program searching all Disarium Numbers in one minute
 
 Disarium Number is a number in which the sum of the digits to the power of their respective position is equal to the number itself.
 For example, 135 = 1^1 + 3^2 + 5^3.
 
 ---
-Fortunately， there is a upper limit for possible disarium, that's:
+Fortunately， there is an upper limit for possible disarium, that's:
 
 99 999 999 999 999 999 999 999 (biggest number with 23 digits)
 
