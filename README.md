@@ -8,7 +8,9 @@ For example, 135 = 1^1 + 3^2 + 5^3.
 Fortunately， there is a upper limit for possible disarium, that's:
 
 99 999 999 999 999 999 999 999 (biggest number with 23 digits)
+
  9 970 805 384 609 063 732 919 (disarium form of the biggest 23 digits "9")
+ 
 10 000 000 000 000 000 000 000 (smallest number with 23 digits)
  
  You see that the biggest disarium form of 23 digits number has only 22 digits, impossible to meet the basic requirement.
@@ -17,7 +19,9 @@ Fortunately， there is a upper limit for possible disarium, that's:
  For 22 digits number:
  
  9 999 999 999 999 999 999 999 (biggest number with 22 digits)
+ 
  1 107 867 264 956 562 636 990 (disarium form of the biggest 22 digits "9")
+ 
  1 000 000 000 000 000 000 000 (smallest number with 22 digits)
  
  From this simple check, we can know that all possible disarium number will smaller than 22 digits "9 999 999 999 999 999 999 999" (acturally smaller than its' disarium form "1 107 867 264 956 562 636 990").
