@@ -5,6 +5,7 @@ Disarium Number is a number in which the sum of the digits to the power of their
 For example, 135 = 1^1 + 3^2 + 5^3.
 
 ---
+
 The most fortunately thing about disarium number is, there has an upper limit for possible disarium:
 
 **99 999 999 999 999 999 999 999** (biggest number with 23 digits)
@@ -30,6 +31,7 @@ The most fortunately thing about disarium number is, there has an upper limit fo
  Above is the basic idea to find the possible disarium numbers: narrow down the possible limits for disarium numbers at any given number of digits.
  
  Let's go further, estimate the limtis from low bit digit end, in this way the possible limits will be greatlly narrow down when we get more digit known from low bit end. That's the core idea here shown in this program.
+
 ---
 
  Take an example of 3 digits number end of 5 (disarium form number is listed in braket):
