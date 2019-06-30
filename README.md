@@ -1,5 +1,5 @@
 # Disarium-Numbers
-C program searching all Disarium Numbers in one minute
+**C program searching all Disarium Numbers in one minute**
 
 Disarium Number is a number in which the sum of the digits to the power of their respective position is equal to the number itself.
 For example, 135 = 1^1 + 3^2 + 5^3.
@@ -33,31 +33,19 @@ The most fortunately thing about disarium number is, there has an upper limit fo
  
  Take an example of 3 digits number end of 5 (disarium form number is listed in braket):
  
- xx5 <= 995  (215), pass to 2nd digit
- 
- x05 <= 905  (134), pass to 3rd digit
- 
- 105 <= 105 <(126), failed to next 3rd digit
- 
- 205 <= 205 >(127), fieled to next 2nd digit
- 
- x15 <= 915  (135), pass to 3rd digit
- 
- 115 <= 115 <(127), failed to next 3rd digit
- 
- 215 <= 215 >(128), failed to next 2nd digit
- 
- x25 <= 925  (138), pass to 3rd digit
- 
- 125 <= 125 <(130), failed to next 3rd digit
- 
- 225 <= 225 >(131), failed to next 2nd digit
- 
- x35 <= 935  (143), pass to 3rd digit
- 
- 135 <= 135 =(135), pass to next 3rd digit, 135 is found as an disarium number
- 
- 235 <= 235 >(136), failed to next 2nd digit
+ * xx5 <= 995  (215), pass to 2nd digit
+   * x05 <= 905  (134), pass to 3rd digit
+     * 105 <= 105 <(126), failed to next 3rd digit
+     * 205 <= 205 >(127), fieled to next 2nd digit
+   * x15 <= 915  (135), pass to 3rd digit
+     * 115 <= 115 <(127), failed to next 3rd digit
+     * 215 <= 215 >(128), failed to next 2nd digit
+   * x25 <= 925  (138), pass to 3rd digit
+     * 125 <= 125 <(130), failed to next 3rd digit
+     * 225 <= 225 >(131), failed to next 2nd digit
+   * x35 <= 935  (143), pass to 3rd digit
+     * 135 <= 135 =(135), pass to next 3rd digit, **135 is found as an disarium number**
+     * 235 <= 235 >(136), failed to next 2nd digit
  
  This simple example shows the idea to narrow down the possible limit for disraium numbers. A lot of other ideas for this purpose is also shown in the code, have a look and welcome for issues.
  
