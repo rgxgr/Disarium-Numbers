@@ -4,7 +4,7 @@ C program searching all Disarium Numbers
 Disarium Number is a number in which the sum of the digits to the power of their respective position is equal to the number itself.
 For example, 135 = 1^1 + 3^2 + 5^3.
 
-
+---
 Fortunately， there is a upper limit for possible disarium, that's:
 
 99 999 999 999 999 999 999 999 (biggest number with 23 digits)
@@ -26,7 +26,7 @@ _9 970 805 384 609 063 732 919 (disarium form of the biggest 23 digits "9")
  
  From this simple check, we can know that all possible disarium number will smaller than 22 digits "9 999 999 999 999 999 999 999" (acturally smaller than its' disarium form "1 107 867 264 956 562 636 990").
  
- 
+ ---
  Above is the basic idea to find the possible disarium numbers: narrow down the possible limits for disarium numbers at any given number of digits.
  
  Let's go further, estimate the limtis from low bit digit end, in this way the possible limits will be greatlly narrow down when we get more digit known from low bit end. That's the core idea here shown in this program.
