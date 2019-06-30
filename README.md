@@ -9,7 +9,7 @@ Fortunately， there is a upper limit for possible disarium, that's:
 
 99 999 999 999 999 999 999 999 (biggest number with 23 digits)
 
- 9 970 805 384 609 063 732 919 (disarium form of the biggest 23 digits "9")
+_9 970 805 384 609 063 732 919 (disarium form of the biggest 23 digits "9")
  
 10 000 000 000 000 000 000 000 (smallest number with 23 digits)
  
